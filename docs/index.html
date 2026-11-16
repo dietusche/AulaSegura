@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AulaSegura · App académica offline-first</title>
+<meta name="description" content="Aplicación Android offline-first y segura para la consulta de información académica de estudiantes de grado 11.">
+<style>
+:root{--verde:#0b4a35;--verde2:#14694b;--claro:#e8f3ee;--oro:#b8963e;--oroc:#f7f0de;--rojo:#b3362b;--tinta:#1d2925;--gris:#5c6b66;--linea:#d5e2dc;--fondo:#fafcfb}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--tinta);background:var(--fondo);line-height:1.55}
+a{color:var(--verde2)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(135deg,#0b4a35,#14694b);color:#fff;padding:56px 0 64px}
+.tag{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);border-radius:99px;padding:4px 12px;font-size:13px;margin-bottom:18px}
+h1{font-size:clamp(34px,6vw,54px);line-height:1.05;letter-spacing:-.5px}
+h1 span{color:#e9c96f}
+header p.lead{font-size:clamp(16px,2.4vw,20px);max-width:640px;margin-top:14px;opacity:.92}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.btn{display:inline-block;padding:11px 18px;border-radius:10px;font-weight:600;text-decoration:none;font-size:15px}
+.btn.p{background:var(--oro);color:#fff}
+.btn.s{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.35)}
+section{padding:52px 0;border-bottom:1px solid var(--linea)}
+h2{font-size:26px;color:var(--verde);margin-bottom:6px}
+.sub{color:var(--gris);margin-bottom:24px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:#fff;border:1px solid var(--linea);border-radius:14px;padding:20px}
+.card h3{font-size:17px;color:var(--verde);margin-bottom:6px}
+.card p{font-size:15px;color:#33433e}
+.q{background:var(--oroc);border-left:4px solid var(--oro);padding:16px 18px;border-radius:0 10px 10px 0;font-size:16px;margin-top:18px}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:8px}
+.node{background:var(--claro);border:1.5px solid var(--verde2);border-radius:10px;padding:10px 14px;font-weight:600;color:var(--verde);font-size:14px;text-align:center}
+.node small{display:block;font-weight:400;color:var(--gris);font-size:12px}
+.arr{color:var(--verde2);font-weight:700}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--linea);border-radius:12px;overflow:hidden;font-size:14.5px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--linea);vertical-align:top}
+th{background:var(--claro);color:var(--verde)}
+.pill{display:inline-block;font-size:12px;font-weight:700;border:1px solid var(--rojo);color:var(--rojo);border-radius:99px;padding:1px 8px;white-space:nowrap}
+.shots{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.shots img{width:100%;border-radius:14px;border:1px solid var(--linea);background:#fff}
+footer{padding:28px 0 40px;color:var(--gris);font-size:14px}
+.tw{overflow-x:auto}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="tag">Taller ABP · Diseño de Aplicaciones para Móviles · Ingeniería Informática</div>
+    <h1>Aula<span>Segura</span></h1>
+    <p class="lead">Una app Android <b>offline-first</b> y <b>segura</b> para que los estudiantes de grado 11 consulten sus notas, su horario y los avisos del colegio, incluso sin internet.</p>
+    <div class="btns">
+      <a class="btn p" href="https://github.com/dietusche/AulaSegura">Ver repositorio en GitHub</a>
+      <a class="btn s" href="https://github.com/dietusche/AulaSegura/tree/main/presentacion">Presentación</a>
+      <a class="btn s" href="#video">Video de sustentación</a>
+      <a class="btn s" href="api/v1/avisos.json">API JSON</a>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>El problema</h2>
+    <p class="sub">I.E. Colegio Técnico Francisco de Paula Santander · Villavicencio, Meta</p>
+    <div class="grid">
+      <div class="card"><h3>📢 Información dispersa</h3><p>Notas, horarios y avisos llegan por grupos de mensajería, boletines impresos y plataformas web que no están pensadas para el celular.</p></div>
+      <div class="card"><h3>📶 Conectividad limitada</h3><p>Muchos estudiantes tienen pocos datos móviles o señal intermitente y se enteran tarde de su situación académica.</p></div>
+      <div class="card"><h3>🔐 Datos personales</h3><p>La información académica está protegida por la Ley 1581 de 2012 y exige controles frente al robo de credenciales y la fuga de datos.</p></div>
+    </div>
+    <div class="q"><b>Pregunta problema:</b> ¿De qué manera una aplicación nativa en Android con arquitectura offline-first y controles del OWASP Mobile Top 10 permite a los estudiantes de grado 11 consultar su información académica de forma oportuna, incluso con conectividad limitada, sin exponer sus datos personales?</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>La solución</h2>
+    <p class="sub">Kotlin · Jetpack Compose · Material 3 · Room · DataStore · Android Keystore · GitHub Pages</p>
+    <div class="grid">
+      <div class="card"><h3>Inicio</h3><p>Promedio del periodo, materias en riesgo, estado de sincronización y avisos del colegio.</p></div>
+      <div class="card"><h3>Notas</h3><p>Calificaciones por periodo con la escala de desempeño del Decreto 1290 (Superior, Alto, Básico, Bajo).</p></div>
+      <div class="card"><h3>Horario</h3><p>Horario semanal por día, con hora y salón.</p></div>
+      <div class="card"><h3>Sin conexión</h3><p>Después del primer ingreso, todo se consulta en modo avión desde la base de datos local Room.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Arquitectura</h2>
+    <p class="sub">MVVM con una única fuente de verdad (Repository) y estrategia offline-first</p>
+    <div class="flow">
+      <div class="node">UI Compose<small>Login · Inicio · Notas · Horario</small></div><span class="arr">→</span>
+      <div class="node">ViewModel<small>StateFlow</small></div><span class="arr">→</span>
+      <div class="node">Repository<small>offline-first</small></div><span class="arr">→</span>
+      <div class="node">Room · Keystore<small>datos y sesión en el teléfono</small></div><span class="arr">⇄</span>
+      <div class="node">API REST JSON<small>GitHub Pages · HTTPS</small></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Seguridad</h2>
+    <p class="sub">Riesgos y controles alineados con el OWASP Mobile Top 10 (2024)</p>
+    <div class="tw"><table>
+      <tr><th>Riesgo</th><th>OWASP</th><th>Control implementado</th></tr>
+      <tr><td>Tráfico interceptado en redes Wi-Fi públicas</td><td><span class="pill">M5</span></td><td>Solo HTTPS/TLS; el tráfico HTTP está bloqueado con Network Security Config</td></tr>
+      <tr><td>Robo del token o de la clave</td><td><span class="pill">M1</span></td><td>Se compara el hash SHA-256 de la clave; el token se cifra con AES-256-GCM en el Android Keystore y vence a las 8 horas</td></tr>
+      <tr><td>Exposición de datos locales</td><td><span class="pill">M9</span></td><td>Respaldos y transferencias deshabilitados; solo se guarda lo necesario</td></tr>
+    </table></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Evidencias</h2>
+    <p class="sub">Capturas tomadas en el emulador de Android Studio</p>
+    <div class="shots">
+      <img src="https://raw.githubusercontent.com/dietusche/AulaSegura/main/evidencias/01-login.png" alt="Pantalla de inicio de sesión">
+      <img src="https://raw.githubusercontent.com/dietusche/AulaSegura/main/evidencias/02-inicio.png" alt="Pantalla de inicio">
+      <img src="https://raw.githubusercontent.com/dietusche/AulaSegura/main/evidencias/03-notas.png" alt="Pantalla de notas">
+      <img src="https://raw.githubusercontent.com/dietusche/AulaSegura/main/evidencias/04-horario.png" alt="Pantalla de horario">
+    </div>
+  </div>
+</section>
+
+<section id="video">
+  <div class="wrap">
+    <h2>Video de sustentación</h2>
+    <p class="sub">Pitch de 5 minutos con demostración en el emulador</p>
+    <p><a href="https://www.youtube.com/">Ver en YouTube</a> <span style="color:var(--gris)">(enlace pendiente)</span></p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <b>Alexander Pardo Rodríguez</b> · Ingeniería Informática · Fundación Universitaria Católica del Norte · 2026<br>
+    Datos de estudiantes ficticios, con fines académicos. Elaborado con apoyo de IA (Claude, Anthropic) y revisado por el autor.
+  </div>
+</footer>
+</body>
+</html>

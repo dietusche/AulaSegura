@@ -1,0 +1,390 @@
+{
+  "codigo": "1103",
+  "nombre": "Valentina Castro Díaz",
+  "grado": "11-01",
+  "claveHash": "ef78168df7fd81c9a6f997c64344a558ea53cce09f7d5e9a07f4f1bdc3270f7e",
+  "notas": [
+    {
+      "materia": "Matemáticas",
+      "periodo": 1,
+      "nota": 3.9,
+      "docente": "Lic. Carlos Méndez"
+    },
+    {
+      "materia": "Física",
+      "periodo": 1,
+      "nota": 4.0,
+      "docente": "Lic. Diana Torres"
+    },
+    {
+      "materia": "Química",
+      "periodo": 1,
+      "nota": 5,
+      "docente": "Lic. Jorge Peña"
+    },
+    {
+      "materia": "Lengua Castellana",
+      "periodo": 1,
+      "nota": 4.6,
+      "docente": "Lic. Marta Ruiz"
+    },
+    {
+      "materia": "Inglés",
+      "periodo": 1,
+      "nota": 4.4,
+      "docente": "Lic. Paula Herrera"
+    },
+    {
+      "materia": "Ciencias Sociales",
+      "periodo": 1,
+      "nota": 4.2,
+      "docente": "Lic. Óscar Vargas"
+    },
+    {
+      "materia": "Filosofía",
+      "periodo": 1,
+      "nota": 4.4,
+      "docente": "Lic. Andrea Salas"
+    },
+    {
+      "materia": "Educación Física",
+      "periodo": 1,
+      "nota": 3.7,
+      "docente": "Lic. Hernán Gil"
+    },
+    {
+      "materia": "Tecnología e Informática",
+      "periodo": 1,
+      "nota": 4.5,
+      "docente": "Ing. Sofía León"
+    },
+    {
+      "materia": "Especialidad Técnica",
+      "periodo": 1,
+      "nota": 4.6,
+      "docente": "Ing. Ricardo Mora"
+    },
+    {
+      "materia": "Matemáticas",
+      "periodo": 2,
+      "nota": 4.4,
+      "docente": "Lic. Carlos Méndez"
+    },
+    {
+      "materia": "Física",
+      "periodo": 2,
+      "nota": 3.2,
+      "docente": "Lic. Diana Torres"
+    },
+    {
+      "materia": "Química",
+      "periodo": 2,
+      "nota": 4.9,
+      "docente": "Lic. Jorge Peña"
+    },
+    {
+      "materia": "Lengua Castellana",
+      "periodo": 2,
+      "nota": 4.4,
+      "docente": "Lic. Marta Ruiz"
+    },
+    {
+      "materia": "Inglés",
+      "periodo": 2,
+      "nota": 5.0,
+      "docente": "Lic. Paula Herrera"
+    },
+    {
+      "materia": "Ciencias Sociales",
+      "periodo": 2,
+      "nota": 4.5,
+      "docente": "Lic. Óscar Vargas"
+    },
+    {
+      "materia": "Filosofía",
+      "periodo": 2,
+      "nota": 3.7,
+      "docente": "Lic. Andrea Salas"
+    },
+    {
+      "materia": "Educación Física",
+      "periodo": 2,
+      "nota": 5,
+      "docente": "Lic. Hernán Gil"
+    },
+    {
+      "materia": "Tecnología e Informática",
+      "periodo": 2,
+      "nota": 4.8,
+      "docente": "Ing. Sofía León"
+    },
+    {
+      "materia": "Especialidad Técnica",
+      "periodo": 2,
+      "nota": 4.2,
+      "docente": "Ing. Ricardo Mora"
+    },
+    {
+      "materia": "Matemáticas",
+      "periodo": 3,
+      "nota": 4.7,
+      "docente": "Lic. Carlos Méndez"
+    },
+    {
+      "materia": "Física",
+      "periodo": 3,
+      "nota": 4.2,
+      "docente": "Lic. Diana Torres"
+    },
+    {
+      "materia": "Química",
+      "periodo": 3,
+      "nota": 4.8,
+      "docente": "Lic. Jorge Peña"
+    },
+    {
+      "materia": "Lengua Castellana",
+      "periodo": 3,
+      "nota": 4.5,
+      "docente": "Lic. Marta Ruiz"
+    },
+    {
+      "materia": "Inglés",
+      "periodo": 3,
+      "nota": 4.6,
+      "docente": "Lic. Paula Herrera"
+    },
+    {
+      "materia": "Ciencias Sociales",
+      "periodo": 3,
+      "nota": 4.3,
+      "docente": "Lic. Óscar Vargas"
+    },
+    {
+      "materia": "Filosofía",
+      "periodo": 3,
+      "nota": 3.7,
+      "docente": "Lic. Andrea Salas"
+    },
+    {
+      "materia": "Educación Física",
+      "periodo": 3,
+      "nota": 4.6,
+      "docente": "Lic. Hernán Gil"
+    },
+    {
+      "materia": "Tecnología e Informática",
+      "periodo": 3,
+      "nota": 4.3,
+      "docente": "Ing. Sofía León"
+    },
+    {
+      "materia": "Especialidad Técnica",
+      "periodo": 3,
+      "nota": 4.4,
+      "docente": "Ing. Ricardo Mora"
+    }
+  ],
+  "horario": [
+    {
+      "dia": "Lunes",
+      "orden": 1,
+      "inicio": "07:00",
+      "fin": "07:55",
+      "materia": "Matemáticas",
+      "salon": "Aula 11-01"
+    },
+    {
+      "dia": "Lunes",
+      "orden": 1,
+      "inicio": "07:55",
+      "fin": "08:50",
+      "materia": "Química",
+      "salon": "Laboratorio 2"
+    },
+    {
+      "dia": "Lunes",
+      "orden": 1,
+      "inicio": "09:20",
+      "fin": "10:15",
+      "materia": "Inglés",
+      "salon": "Aula 11-01"
+    },
+    {
+      "dia": "Lunes",
+      "orden": 1,
+      "inicio": "10:15",
+      "fin": "11:10",
+      "materia": "Filosofía",
+      "salon": "Aula 11-01"
+    },
+    {
+      "dia": "Lunes",
+      "orden": 1,
+      "inicio": "11:10",
+      "fin": "12:05",
+      "materia": "Tecnología e Informática",
+      "salon": "Sala de sistemas"
+    },
+    {
+      "dia": "Martes",
+      "orden": 2,
+      "inicio": "07:00",
+      "fin": "07:55",
+      "materia": "Lengua Castellana",
+      "salon": "Aula 11-01"
+    },
+    {
+      "dia": "Martes",
+      "orden": 2,
+      "inicio": "07:55",
+      "fin": "08:50",
+      "materia": "Ciencias Sociales",
+      "salon": "Aula 11-01"
+    },
+    {
+      "dia": "Martes",
+      "orden": 2,
+      "inicio": "09:20",
+      "fin": "10:15",
+      "materia": "Educación Física",
+      "salon": "Polideportivo"
+    },
+    {
+      "dia": "Martes",
+      "orden": 2,
+      "inicio": "10:15",
+      "fin": "11:10",
+      "materia": "Especialidad Técnica",
+      "salon": "Taller técnico"
+    },
+    {
+      "dia": "Martes",
+      "orden": 2,
+      "inicio": "11:10",
+      "fin": "12:05",
+      "materia": "Física",
+      "salon": "Laboratorio 1"
+    },
+    {
+      "dia": "Miércoles",
+      "orden": 3,
+      "inicio": "07:00",
+      "fin": "07:55",
+      "materia": "Filosofía",
+      "salon": "Aula 11-01"
+    },
+    {
+      "dia": "Miércoles",
+      "orden": 3,
+      "inicio": "07:55",
+      "fin": "08:50",
+      "materia": "Tecnología e Informática",
+      "salon": "Sala de sistemas"
+    },
+    {
+      "dia": "Miércoles",
+      "orden": 3,
+      "inicio": "09:20",
+      "fin": "10:15",
+      "materia": "Matemáticas",
+      "salon": "Aula 11-01"
+    },
+    {
+      "dia": "Miércoles",
+      "orden": 3,
+      "inicio": "10:15",
+      "fin": "11:10",
+      "materia": "Química",
+      "salon": "Laboratorio 2"
+    },
+    {
+      "dia": "Miércoles",
+      "orden": 3,
+      "inicio": "11:10",
+      "fin": "12:05",
+      "materia": "Inglés",
+      "salon": "Aula 11-01"
+    },
+    {
+      "dia": "Jueves",
+      "orden": 4,
+      "inicio": "07:00",
+      "fin": "07:55",
+      "materia": "Especialidad Técnica",
+      "salon": "Taller técnico"
+    },
+    {
+      "dia": "Jueves",
+      "orden": 4,
+      "inicio": "07:55",
+      "fin": "08:50",
+      "materia": "Física",
+      "salon": "Laboratorio 1"
+    },
+    {
+      "dia": "Jueves",
+      "orden": 4,
+      "inicio": "09:20",
+      "fin": "10:15",
+      "materia": "Lengua Castellana",
+      "salon": "Aula 11-01"
+    },
+    {
+      "dia": "Jueves",
+      "orden": 4,
+      "inicio": "10:15",
+      "fin": "11:10",
+      "materia": "Ciencias Sociales",
+      "salon": "Aula 11-01"
+    },
+    {
+      "dia": "Jueves",
+      "orden": 4,
+      "inicio": "11:10",
+      "fin": "12:05",
+      "materia": "Educación Física",
+      "salon": "Polideportivo"
+    },
+    {
+      "dia": "Viernes",
+      "orden": 5,
+      "inicio": "07:00",
+      "fin": "07:55",
+      "materia": "Química",
+      "salon": "Laboratorio 2"
+    },
+    {
+      "dia": "Viernes",
+      "orden": 5,
+      "inicio": "07:55",
+      "fin": "08:50",
+      "materia": "Inglés",
+      "salon": "Aula 11-01"
+    },
+    {
+      "dia": "Viernes",
+      "orden": 5,
+      "inicio": "09:20",
+      "fin": "10:15",
+      "materia": "Filosofía",
+      "salon": "Aula 11-01"
+    },
+    {
+      "dia": "Viernes",
+      "orden": 5,
+      "inicio": "10:15",
+      "fin": "11:10",
+      "materia": "Tecnología e Informática",
+      "salon": "Sala de sistemas"
+    },
+    {
+      "dia": "Viernes",
+      "orden": 5,
+      "inicio": "11:10",
+      "fin": "12:05",
+      "materia": "Matemáticas",
+      "salon": "Aula 11-01"
+    }
+  ]
+}

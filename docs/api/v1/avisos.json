@@ -1,0 +1,26 @@
+{
+  "actualizado": "2026-11-10",
+  "avisos": [
+    {
+      "id": "a1",
+      "titulo": "Simulacro Saber 11",
+      "detalle": "El sábado 21 de noviembre, 7:00 a. m., en el colegio. Traer lápiz y documento.",
+      "fecha": "2026-11-10",
+      "importante": true
+    },
+    {
+      "id": "a2",
+      "titulo": "Entrega de boletines del tercer periodo",
+      "detalle": "Reunión de padres de familia el viernes 20 de noviembre a las 6:00 p. m.",
+      "fecha": "2026-11-09",
+      "importante": false
+    },
+    {
+      "id": "a3",
+      "titulo": "Proyecto de grado técnico",
+      "detalle": "Última revisión de avances con el docente de especialidad la próxima semana.",
+      "fecha": "2026-11-05",
+      "importante": false
+    }
+  ]
+}
