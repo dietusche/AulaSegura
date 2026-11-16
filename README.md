@@ -168,9 +168,9 @@ AulaSegura/
 
 ## 8. Evidencias y resultados
 
-| Inicio de sesión | Inicio (datos desde la nube) | Notas | Horario |
-|---|---|---|---|
-| ![](evidencias/01-login.png) | ![](evidencias/02-inicio.png) | ![](evidencias/03-notas.png) | ![](evidencias/04-horario.png) |
+| Inicio de sesión | Inicio (datos desde la nube) | Notas | Horario | Sin conexión (modo avión) |
+|---|---|---|---|---|
+| ![](evidencias/01-login.png) | ![](evidencias/02-inicio.png) | ![](evidencias/03-notas.png) | ![](evidencias/04-horario.png) | ![](evidencias/05-offline.png) |
 
 *Capturas tomadas el 16/11/2026 con la app ejecutándose en un celular Android real (depuración USB desde Android Studio).*
 
@@ -180,7 +180,7 @@ AulaSegura/
 - ✅ La app se instala y ejecuta en un celular Android real.
 - ✅ La app consume la API JSON publicada en GitHub Pages por HTTPS: la pantalla de inicio muestra *"Datos cargados desde: Nube (API en GitHub Pages)"*.
 - ✅ Inicio de sesión con usuario de prueba, notas por periodo con escala del Decreto 1290 y horario semanal funcionando.
-- 🧪 Modo sin conexión (modo avión) demostrado en el video de sustentación.
+- ✅ Modo sin conexión: con el celular en modo avión, la app inicia sesión y muestra todo desde la copia local (*"Datos cargados desde: Copia guardada en el teléfono"*).
 - 🧪 Pruebas unitarias del módulo de autenticación incluidas en `app/src/test` (`PasswordHasherTest`).
 
 ## 9. Costos estimados de publicación
