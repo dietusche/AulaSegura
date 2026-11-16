@@ -168,16 +168,20 @@ AulaSegura/
 
 ## 8. Evidencias y resultados
 
-| Inicio de sesión | Inicio | Notas | Horario | Modo sin conexión |
-|---|---|---|---|---|
-| ![](evidencias/01-login.png) | ![](evidencias/02-inicio.png) | ![](evidencias/03-notas.png) | ![](evidencias/04-horario.png) | ![](evidencias/05-offline.png) |
+| Inicio de sesión | Inicio (datos desde la nube) | Notas | Horario |
+|---|---|---|---|
+| ![](evidencias/01-login.png) | ![](evidencias/02-inicio.png) | ![](evidencias/03-notas.png) | ![](evidencias/04-horario.png) |
+
+*Capturas tomadas el 16/11/2026 con la app ejecutándose en un celular Android real (depuración USB desde Android Studio).*
 
 **Resultados obtenidos**
 
-- ✅ La app consume la API JSON publicada en GitHub Pages mediante HTTPS.
-- ✅ Después del primer inicio de sesión, notas, horario y avisos se consultan sin conexión (modo avión).
-- ✅ Las pruebas unitarias del módulo de autenticación pasan (4 de 4).
-- ✅ Tres controles de seguridad alineados con el OWASP Mobile Top 10.
+- ✅ El proyecto compila en Android Studio (Gradle sync y `assembleDebug` exitosos).
+- ✅ La app se instala y ejecuta en un celular Android real.
+- ✅ La app consume la API JSON publicada en GitHub Pages por HTTPS: la pantalla de inicio muestra *"Datos cargados desde: Nube (API en GitHub Pages)"*.
+- ✅ Inicio de sesión con usuario de prueba, notas por periodo con escala del Decreto 1290 y horario semanal funcionando.
+- 🧪 Modo sin conexión (modo avión) demostrado en el video de sustentación.
+- 🧪 Pruebas unitarias del módulo de autenticación incluidas en `app/src/test` (`PasswordHasherTest`).
 
 ## 9. Costos estimados de publicación
 
