@@ -19,7 +19,7 @@ Autor: **Alexander Pardo Rodríguez**
 1. **Landing page del proyecto:** https://dietusche.github.io/AulaSegura/
 2. **API JSON en la nube:** https://dietusche.github.io/AulaSegura/api/v1/avisos.json
 3. **Presentación (diapositivas):** [`/presentacion`](presentacion/)
-4. **Video de sustentación (YouTube):** _pendiente: pegar enlace aquí_
+4. **Video de sustentación (YouTube):** https://youtu.be/cudcY2alrqk
 5. **Evidencias (capturas de pantalla):** [`/evidencias`](evidencias/)
 
 ---
